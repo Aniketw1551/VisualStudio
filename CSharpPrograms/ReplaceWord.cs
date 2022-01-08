@@ -10,7 +10,7 @@ namespace CSharpPrograms
     {
         public static void UserInput()
         {
-            Console.WriteLine("Enter your username");
+            Console.WriteLine("Enter your username: ");
             String Name = Console.ReadLine();
 
             if (Name.Length >= 3)
@@ -19,7 +19,7 @@ namespace CSharpPrograms
             }
             else
             {
-                Console.WriteLine("Please enter atleast 3 characters");
+                Console.WriteLine("Please enter atleast 3 characters: ");
             }
         }
         public static void ReplaceGivenTemplate(String Name)
@@ -34,4 +34,3 @@ namespace CSharpPrograms
         }
     }
 }
-               

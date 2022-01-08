@@ -10,7 +10,7 @@ namespace CSharpPrograms
     {
         public static void FindPowerofTwo()
         {
-            Console.WriteLine("Enter a number to get power of two");
+            Console.WriteLine("Enter a number to get power of two: ");
             int number = Convert.ToInt32(Console.ReadLine());
 
             int powOfTwo = 0;
