@@ -11,7 +11,7 @@ namespace CSharpPrograms
         public static void CoinFlip()
         {
             int tailCount = 0, headCount = 0;
-            Console.WriteLine("Enter a Number to Flip a Coin");
+            Console.WriteLine("Enter a Number to Flip a Coin: ");
             int Number = Convert.ToInt32(Console.ReadLine());
 
             Random random = new Random();
