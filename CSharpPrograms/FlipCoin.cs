@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CSharpPrograms
 {
-   internal class FlipCoin
+    internal class FlipCoin
     {
         public static void CoinFlip()
         {
@@ -35,4 +35,3 @@ namespace CSharpPrograms
         }
     }
 }
-
