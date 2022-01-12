@@ -44,12 +44,23 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="cat.cs" />
-    <Compile Include="Encapusulation\BankBalance.cs" />
+    <Compile Include="Encapsulation\BankBalance.cs" />
+    <Compile Include="Encapsulation\Encapsulation.cs" />
+    <Compile Include="Inheritance\Car.cs" />
+    <Compile Include="Inheritance\Scooter.cs" />
+    <Compile Include="Inheritance\Vehicle.cs" />
+    <Compile Include="Polymorphism\MethodOverloading\Addition.cs" />
+    <Compile Include="Polymorphism\MethodOverloading\MethodOverloadingprogram.cs" />
+    <Compile Include="Polymorphism\MethodOverloading\Subtraction.cs" />
+    <Compile Include="Polymorphism\MethodOverriding\Animal.cs" />
+    <Compile Include="Polymorphism\MethodOverriding\parrot.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include=".editorconfig" />
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

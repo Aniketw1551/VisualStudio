@@ -13,10 +13,12 @@ namespace OopsConcept
         public string color;
         public static void sleep()
         {
-           Console.WriteLine("Sleeping");
+            Console.WriteLine("Sleeping");
         }
         public static void meow()
-        { 
+        {
             Console.WriteLine("Meow");
+        }
     }
 }
+
