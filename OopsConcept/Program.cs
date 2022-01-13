@@ -1,12 +1,13 @@
-﻿using System;
+﻿using OopsConcept.Encapsulation;
+using OopsConcept.Polymorphism.MethodOverriding;
+using OopsConcept.Polymorphism.MethodOverloading;
+using OopsConcept.Inheritance;
+using OopsConcept.Inheritance.SingleInheritance;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using OopsConcept.Encapsulation;
-using OopsConcept.Polymorphism.MethodOverriding;
-using OopsConcept.Polymorphism.MethodOverloading;
-using OopsConcept.Inheritance;
 namespace OopsConcept
 {
     internal class Program
@@ -38,8 +39,16 @@ namespace OopsConcept
             // Inheritance 
             Scooter vehicle = new Scooter();
             vehicle.ScooterBrand();      // calling Method of scooter class
-         
-           
+            vehicle.CarBrand();
+
+            // Object for SingleInheritance
+            Tiger tiger = new Tiger();
+            tiger.Sleep();
+            tiger.breed = "Bengali Tiger";
+            tiger.age = 6;
+            Console.WriteLine("Anmial is: " + tiger.breed + "\t, Age: " + tiger.age + "yrs");
+            tiger.Eat();
+            tiger.Walk();
         }
     }
 }
