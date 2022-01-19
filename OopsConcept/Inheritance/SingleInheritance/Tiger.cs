@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace OopsConcept.Inheritance.SingleInheritance
 {
-    internal class Tiger
+    public class Tiger : Animal
     {
+        public void Sleep()
+        {
+            Console.WriteLine("Tiger is sleeping");
+        }
     }
 }
+
+

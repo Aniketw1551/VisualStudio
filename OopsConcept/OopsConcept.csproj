@@ -48,6 +48,8 @@
     <Compile Include="Encapsulation\Encapsulation.cs" />
     <Compile Include="Inheritance\Car.cs" />
     <Compile Include="Inheritance\Scooter.cs" />
+    <Compile Include="Inheritance\SingleInheritance\Animal.cs" />
+    <Compile Include="Inheritance\SingleInheritance\Tiger.cs" />
     <Compile Include="Inheritance\Vehicle.cs" />
     <Compile Include="Polymorphism\MethodOverloading\Addition.cs" />
     <Compile Include="Polymorphism\MethodOverloading\MethodOverloadingprogram.cs" />
@@ -61,6 +63,8 @@
     <None Include=".editorconfig" />
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Inheritance\HierarchicalInheritance\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
